@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: -moz-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, 90deg, color-stop(0, EE5A79), color-stop(100%, F9B744));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');
+    /* for IE */
+    background: linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* W3C */
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    font-family: 'Nunito', sans-serif;
+    margin: 30px auto;
+    background-color: rgb(244, 245, 250);
+    padding: 15px;
+    border-radius: 4px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#EE5A79)";
+    /*IE 8*/
+    -moz-box-shadow: 0 0 10px 5px rgba(238, 90, 121, 0.4);
+    /*FF 3.5+*/
+    -webkit-box-shadow: 0 0 10px 5px rgba(238, 90, 121, 0.4);
+    /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 0 10px 5px rgba(238, 90, 121, 0.4);
+    /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#EE5A79);
+    /*IE 5.5-7*/
+}
+
+/* ===== facebook & twitter button style starts ===== */
+.fb-btn,
+.twt-btn {
+    min-width: 100%;
+    padding: 15px 8px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.fb-btn {
+    background-color: rgb(69, 104, 178);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.twt-btn {
+    background-color: rgb(28, 157, 235);
+    margin-top: 15px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.fb-btn,
+.twt-btn {
+    text-decoration: none;
+}
+
+.fb-btn:hover {
+    background-color: rgb(50, 75, 129);
+    color: rgb(238, 91, 120)
+}
+
+.twt-btn:hover {
+    background-color: rgb(16, 122, 188);
+    color: rgb(238, 91, 120)
+}
+
+.font-awesome {
+    padding-right: 10px;
+}
+
+.pg-style p {
+    text-align: center;
+}
+
+/* ====== facebook & twitter button style starts ======*/
+
+/* ============= form style starts ============== */
+.form-style {
+    position: relative;
+}
+
+.form-style input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: rgb(120, 120, 120);
+    box-shadow: rgb(217, 217, 217);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#D9D9D9)";
+    /*IE 8*/
+    -moz-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*FF 3.5+*/
+    -webkit-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#D9D9D9);
+    /*IE 5.5-7*/
+}
+
+.form-style input:hover,
+.form-style input:focus,
+.form-style input:valid {
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 2px;
+}
+
+.radio-forgot {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forgot-text {
+    float: right;
+    color: rgb(28, 157, 235);
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.forgot-text:hover {
+    color: rgb(16, 122, 188)
+}
+
+/* radio button style starts */
+.label-style {
+    float: left;
+    position: relative;
+    padding-left: 32px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+.label-style:hover~.checkmark,
+.label-style input:focus~.checkmark,
+.label-style input:checked~.checkmark {
+    background-color: rgb(28, 157, 235);
+}
+
+.label-style input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.label-style input~.checkmark {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: rgb(217, 217, 217);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#D9D9D9)";
+    /*IE 8*/
+    -moz-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*FF 3.5+*/
+    -webkit-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#D9D9D9);
+    /*IE 5.5-7*/
+}
+
+
+/* radio button indicator or checkmark style starts */
+.label-style input~.checkmark:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    display: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.label-style input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .form-style .input-submit {
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    background: -moz-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, 90deg, color-stop(0, EE5A79), color-stop(100%, F9B744));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');
+    /* for IE */
+    background: linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
+    /* W3C */
+}
+
+.container .form-style .input-submit:hover {
+    background: -moz-linear-gradient(180deg, #EE5A79 0, #F9B744 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(0, EE5A79), color-stop(100%, F9B744));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #EE5A79 0, #F9B744 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #EE5A79 0, #F9B744 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #EE5A79 0, #F9B744 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');
+    /* for IE */
+    background: linear-gradient(180deg, #EE5A79 0, #F9B744 100%);
+    /* W3C */
+}
+
+.pg-container {
+    position: relative;
+}
+
+.pg-container p {
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgb(238, 90, 121);
+    border-radius: 40px;
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    letter-spacing: 0.5px;
+}
+
+.pg-container a.button:hover {
+    background-color: rgb(69, 104, 178);
+    border: 2px solid rgb(28, 157, 235);
+    color: rgb(255, 255, 255);
+}
+
+.pg-container .button {
+    text-decoration: none;
+}
+
+/* ===== remove cross button of input field in IE ==== */
+::-ms-clear,
+::-ms-reveal {
+    display: none;
+}
+
+/* ===== Small devices and most phones ====== */
+@media (min-width: 480px) {
+    .container {
+        width: 75%;
+        padding: 30px;
+    }
+
+    .fb-btn,
+    .twt-btn {
+        padding: 15px 20px;
+    }
+
+    .label-style {
+        margin-bottom: 0;
+    }
+}
+
+/* ====== Most tablets ====== */
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
+    }
+}
+
+/* ====== Smaller desktop viewpoints ===== */
+@media (min-width: 992px) {
+    .container {
+        width: 40%;
+    }
+}
+
+/* ====== Large desktop and wide screen ====== */
+@media (min-width: 1200px) {
+    .container {
+        width: 30%;
+    }
+}
+
+/* ===== HD or retina display ===== */
+@media (min-width: 1920px) {
+    .container {
+        width: 25%;
+    }
+}
+
+/* ====== 4K or ultra HD display ====== */
+@media (min-width: 2560px) {
+    .container {
+        width: 20%;
+    }
+}
