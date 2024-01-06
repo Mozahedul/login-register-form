@@ -107,7 +107,7 @@ body {
     margin-bottom: 15px;
     padding: 15px;
     outline: none;
-    border: none;
+    border: 2px solid transparent;
     border-radius: 2px;
     color: rgb(120, 120, 120);
     box-shadow: rgb(217, 217, 217);
@@ -131,7 +131,7 @@ body {
 .form-style input:hover,
 .form-style input:focus,
 .form-style input:valid {
-    border: 2px solid rgb(217, 217, 217);
+    border-color: rgb(217, 217, 217);
     border-radius: 2px;
 }
 
