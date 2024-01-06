@@ -131,7 +131,7 @@ body {
 .form-style input:hover,
 .form-style input:focus,
 .form-style input:valid {
-    border-color: rgb(217, 217, 217);
+    border-color: green;
     border-radius: 2px;
 }
 
