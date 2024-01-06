@@ -240,6 +240,7 @@ body {
     cursor: pointer;
     margin-top: 30px;
     letter-spacing: 0.5px;
+    transition: 1s all ease-in-out;
     background: -moz-linear-gradient(90deg, #EE5A79 0, #F9B744 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, 90deg, color-stop(0, EE5A79), color-stop(100%, F9B744));
